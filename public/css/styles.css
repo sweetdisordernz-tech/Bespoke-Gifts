@@ -523,6 +523,17 @@ h1, h2, h3, h4 {
   font-size: 1.1rem;
   margin-bottom: 18px;
 }
+.customise__visual {
+  margin-top: 24px;
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.customise__visual img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 .swatch-list {
   list-style: none;
   margin: 0;
