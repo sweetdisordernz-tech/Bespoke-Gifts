@@ -411,6 +411,7 @@ h1, h2, h3, h4 {
   max-width: 560px;
 }
 .hero__body strong { color: var(--color-ink); }
+.hero__body--strong { margin-top: -16px; }
 .hero__cta-row { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
 .hero__stripe {
   position: absolute;
@@ -500,34 +501,36 @@ h1, h2, h3, h4 {
   margin-bottom: 18px;
 }
 .swatch-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 .swatch {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 8px;
-  background: rgba(255,255,255,0.12);
-  padding: 8px 14px 8px 8px;
-  font-size: 0.85rem;
+  gap: 12px;
+  padding: 9px 0;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  font-size: 0.95rem;
 }
+.swatch:first-child { border-top: none; }
 .swatch__dot {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  border: 1px solid rgba(255,255,255,0.6);
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  border: 1px solid rgba(255,255,255,0.5);
   flex-shrink: 0;
 }
-.swatch__dot--silver { background: #c7cbcf; }
-.swatch__dot--light-blue { background: #a7d8e8; }
-.swatch__dot--gold { background: #cda349; }
-.swatch__dot--yellow { background: #f2d33c; }
-.swatch__dot--green { background: #4caf6c; }
-.swatch__dot--red { background: #c84b3e; }
+.swatch__dot--gold { background: #c9a227; }
+.swatch__dot--olive { background: #8a9a3e; }
+.swatch__dot--pink { background: #d6397a; }
+.swatch__dot--copper { background: #b5651d; }
+.swatch__dot--purple { background: #6b4fa0; }
+.swatch__dot--silver { background: #c3c6c9; }
+.swatch__dot--red { background: #c0392b; }
+.swatch__dot--blue { background: #3b6ea5; }
+.swatch__dot--green { background: #2e7d4f; }
+.swatch__dot--black { background: #1a1a1a; }
 
 .text-rules { list-style: none; margin: 0 0 18px; padding: 0; }
 .text-rules:last-child { margin-bottom: 0; }
@@ -546,6 +549,11 @@ h1, h2, h3, h4 {
   border-top: 1px solid rgba(255,255,255,0.2);
 }
 .text-rules li:first-child { border-top: none; }
+.text-rules__optional {
+  font-style: normal;
+  opacity: 0.75;
+  font-size: 0.85em;
+}
 
 @media (max-width: 760px) {
   .customise__grid { grid-template-columns: 1fr; }
