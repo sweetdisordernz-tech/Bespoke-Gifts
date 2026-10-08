@@ -2,7 +2,7 @@
   "use strict";
 
   // Each feature is isolated in its own try/catch so a failure in one
-  // (e.g. a missing nav element) can never block the others — in
+  // (e.g. a missing nav element) can never block the others, in
   // particular the scroll-reveal fallback below, which must always run
   // or content stays invisible.
 

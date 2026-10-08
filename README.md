@@ -1,10 +1,10 @@
-# Sweet Disorder — Bespoke &amp; Corporate Gifting
+# Sweet Disorder - Bespoke &amp; Corporate Gifting
 
 Standalone landing page for Sweet Disorder's bespoke/corporate gifting offering. Static HTML/CSS/JS, matching the live sweetdisorder.co.nz brand (same header, nav, and footer as the site), built from the Bespoke Gifting information PDF.
 
 ## Structure
 
-Deploy root is `public/` (required for Vercel's zero-config static deploy — see note below).
+Deploy root is `public/` (required for Vercel's zero-config static deploy, see note below).
 
 ```
 public/
