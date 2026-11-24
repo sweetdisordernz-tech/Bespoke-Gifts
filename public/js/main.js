@@ -134,23 +134,19 @@
   // bespoke/labelColours.ts in sweetdisordernz-tech/dashboard) - kept in
   // step by hand, same as this page's other dashboard-sourced copy.
   var LABEL_COLOURS = [
-    { name: "Sweet Disorder teal", hex: "#21D3C6" },
-    { name: "Deep teal", hex: "#0E7C73" },
     { name: "Yellow", hex: "#F2B705" },
     { name: "Gold", hex: "#C9A15B" },
     { name: "Orange", hex: "#F28C28" },
     { name: "Red", hex: "#D7263D" },
-    { name: "Pink", hex: "#F4A6C1" },
+    { name: "Baby pink (coming soon mid-December)", hex: "#F4A6C1" },
     { name: "Hot pink", hex: "#E83E8C" },
     { name: "Purple", hex: "#7B3F75" },
     { name: "Navy", hex: "#1F3A68" },
     { name: "Blue", hex: "#2E86DE" },
     { name: "Green", hex: "#3BA55C" },
-    { name: "Forest green", hex: "#1E5631" },
-    { name: "Black", hex: "#1F1F1F" },
     { name: "Silver", hex: "#B0B7BD" },
-    { name: "White", hex: "#FFFFFF" },
-    { name: "Match their brand (tell us in the notes)", hex: "#D9D9D9" }
+    { name: "Concrete", hex: "#9C9C94" },
+    { name: "Soft teal (coming soon mid-December)", hex: "#9FD4CE" }
   ];
 
   // Same sweet range already listed in the "Available Sweet Options"
