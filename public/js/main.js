@@ -145,7 +145,7 @@
     { name: "Blue", hex: "#2E86DE" },
     { name: "Green", hex: "#3BA55C" },
     { name: "Silver", hex: "#B0B7BD" },
-    { name: "Concrete", hex: "#9C9C94" },
+    { name: "Concrete (coming soon mid-December)", hex: "#9C9C94" },
     { name: "Soft teal (coming soon mid-December)", hex: "#9FD4CE" }
   ];
 
